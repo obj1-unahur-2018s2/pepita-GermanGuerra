@@ -8,5 +8,5 @@ object pepita {
 	method cantar(tiempo) { energia -= 3 +  tiempo }
 }
 object gomera{
-	var golpe print 
+	//var golpe print 
 }

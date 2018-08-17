@@ -39,5 +39,12 @@ object mijo {
 }
 
 object canelones {
-	method energiaPorGramo() { return 250}
+	var agregados = 0
+	
+	method agregar_salsa() {agregados+=5}
+	method agregar_queso() {agregados+=7}
+	method quitar_salsa() {agregados-=5}
+	method quitar_queso() {agregados-=7}
+	method energiaPorGramo() { return 20+agregados}
+		
 }
